@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('woff2/CascadiaCode-ExtraLight.woff2') format('woff2'),
+    url('ttf/CascadiaCode-ExtraLight.ttf') format('ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('woff2/CascadiaCode-Light.woff2') format('woff2'),
+    url('ttf/CascadiaCode-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('woff2/CascadiaCode-SemiLight.woff2') format('woff2'),
+    url('ttf/CascadiaCode-SemiLight.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('woff2/CascadiaCode-Regular.woff2') format('woff2'),
+    url('ttf/CascadiaCode-Regular.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('woff2/CascadiaCode-SemiBold.woff2') format('woff2'),
+    url('ttf/CascadiaCode-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('woff2/CascadiaCodeBold.woff2') format('woff2'),
+    url('ttf/CascadiaCodeBold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cascadia Code VF';
+  src: url('woff2/CascadiaCode.woff2') format('woff2-variations'),
+    url('ttf/CascadiaCode.ttf') format('ttf-variations');
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 200 700;
+  font-style: normal;
+}

@@ -65,4 +65,7 @@ if (font === 'Fira Code') {
   'https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
   code.style.fontFamily = 'Comic Neue';
   code.style.fontWeight = 'bold';
+} else if (font === 'Cascade Code') {
+  injectStylesheet('../../assets/fonts/Cascadia_Code_2009.22.2/cascadia_code.css');
+  code.style.fontFamily = 'Cascade Code';
 }
